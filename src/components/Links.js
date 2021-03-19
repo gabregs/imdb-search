@@ -7,8 +7,6 @@ const Movies = (props) => {
   let regex = new RegExp(props.search, 'i');
   let title = parse(Title.replace(regex, props.search.bold()));
 
-  console.log(props.search);
-
   return (
     <a
       type="button"
