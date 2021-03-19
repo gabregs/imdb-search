@@ -65,7 +65,7 @@ const IMDBSearch = () => {
         type="search"
         autoComplete="off"
         className="form-control form-control-lg shadow"
-        placeholder="Search Movies or TV Series"
+        placeholder="Search Movies and TV Series"
         value={searchTerm}
         onChange={changeSearchTerm}
       />
